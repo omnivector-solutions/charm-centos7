@@ -1,0 +1,12 @@
+name: centos7
+summary: Centos7 charm
+maintainer: Omnivector Solutions <admin@omnivector.solutions>
+subordinate: false
+description: |
+  A charm to deploy centos7.
+tags:
+  - centos7
+  - misc
+
+series:
+  - centos7
