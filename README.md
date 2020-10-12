@@ -52,15 +52,9 @@
 - [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
 - [Prerequisites](#prerequisites)
-  - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -77,11 +71,16 @@ To build the charm, install charmcraft:
 
     sudo snap install charmcraft
 
-To deploy the built charm:
+To deploy the built charm, install juju:
+
+    sudo snap install juju --classic
+
+## Getting Started
+Use Juju to deploy this charm.
 
     juju deploy ./nrpe.charm
 
-### Built With
+## Built With
 
 - [charmcraft](https://github.com/canonical/charmcraft)
 
