@@ -35,7 +35,6 @@
 
   <p align="center">
    A rudimentary charm that deploys centos7 and nothing else.
-   Primarily used for testing and development centos7 juju workloads.
     <br />
     <a href="https://github.com/omnivector-solutions/charm-centos7"><strong>Explore the docs »</strong></a>
     <br />
@@ -45,3 +44,55 @@
     <a href="https://github.com/omnivector-solutions/charm-centos7/issues">Request Feature</a>
   </p>
 </p>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Prerequisites](#prerequisites)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+[![charm-centos7 Screen Shot][product-screenshot]](https://github.com/omnivector-solutions/charm-centos7)
+
+The Centos7 charm provides a straight forward way to deploy Centos7.
+
+Primarily used for testing and development Centos7 Juju workloads.
+
+## Prerequisites
+To build the charm, install charmcraft:
+
+    sudo snap install charmcraft
+
+To deploy the built charm:
+
+    juju deploy ./nrpe.charm
+
+### Built With
+
+- [charmcraft](https://github.com/canonical/charmcraft)
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Omnivector Solutions - [www.omnivector.solutions][website] - <info@omnivector.solutions>
+
+Project Link: [https://github.com/omnivector-solutions/charm-centos7](https://github.com/omnivector-solutions/charm-centos7)
